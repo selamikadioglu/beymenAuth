@@ -6,14 +6,10 @@ import org.openqa.selenium.Keys;
 import pages.CartPage;
 import pages.HomePage;
 import pages.ProductDetailPage;
-import pages.ProductsPage;
 import utilities.DataWriter;
 import utilities.ExcelDataReader;
 
-import java.security.Key;
-
-public class Test_Add_Product_To_Cart extends TestRunner {
-
+public class TestAddProductToCart extends TestRunner {
 
     @Test
     public void search_a_product(){
